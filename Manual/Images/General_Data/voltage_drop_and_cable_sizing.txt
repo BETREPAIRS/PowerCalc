@@ -1,0 +1,32 @@
+VOLTAGE DROP & CABLE AMPACITY (IEC 60364-5-52)
+==================================================
+
+1. Voltage Drop Equations:
+   Single-Phase:
+     Delta_V = (2 * L * I * (R * cos(phi) + X * sin(phi))) / 1000   [Volts]
+   Three-Phase:
+     Delta_V = (sqrt(3) * L * I * (R * cos(phi) + X * sin(phi))) / 1000   [Volts]
+
+   Percentage Voltage Drop:
+     % Delta_V = (Delta_V / V_nominal) * 100%
+
+   Limits: Lighting circuits: <= 3%; Power/motor circuits: <= 5%.
+
+2. Copper Conductor Current-Carrying Capacities (30 deg C Ambient):
+   Cross-Section (mm2) | In Conduit (A) | Clipped Direct (A) | Cable Tray (A) | Underground (A)
+   1.5 mm2             |      15.5 A    |       19.5 A       |     22 A       |      22 A
+   2.5 mm2             |      21.0 A    |       27.0 A       |     30 A       |      29 A
+   4.0 mm2             |      28.0 A    |       36.0 A       |     40 A       |      38 A
+   6.0 mm2             |      36.0 A    |       46.0 A       |     52 A       |      47 A
+   10.0 mm2            |      50.0 A    |       63.0 A       |     71 A       |      63 A
+   16.0 mm2            |      68.0 A    |       85.0 A       |     96 A       |      81 A
+   25.0 mm2            |      89.0 A    |      112.0 A       |    119 A       |     104 A
+   35.0 mm2            |     110.0 A    |      138.0 A       |    147 A       |     125 A
+   50.0 mm2            |     134.0 A    |      168.0 A       |    179 A       |     148 A
+   70.0 mm2            |     171.0 A    |      213.0 A       |    229 A       |     183 A
+   95.0 mm2            |     207.0 A    |      258.0 A       |    278 A       |     216 A
+   120.0 mm2           |     239.0 A    |      299.0 A       |    322 A       |     246 A
+   150.0 mm2           |     272.0 A    |      344.0 A       |    371 A       |     278 A
+   185.0 mm2           |     310.0 A    |      392.0 A       |    424 A       |     312 A
+   240.0 mm2           |     364.0 A    |      461.0 A       |    500 A       |     361 A
+   300.0 mm2           |     419.0 A    |      530.0 A       |    576 A       |     408 A

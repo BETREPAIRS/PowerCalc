@@ -1,0 +1,23 @@
+VID-02: MOTOR INSULATION RESISTANCE (MEGGER) TESTING
+======================================================
+Standard: IEEE 43 / IEC 60034-27-1
+Instrument: 500V DC Insulation Tester (for 400V motors)
+
+Preparation:
+1. Lock Out / Tag Out (LOTO) all electrical feeds.
+2. Confirm zero voltage using a calibrated multimeter/tester.
+3. Disconnect motor leads from the Variable Frequency Drive (VFD) or electronic soft starter to prevent semi-conductor component damage.
+
+Testing Procedure:
+1. Phase to Ground:
+   - Connect Earth probe (-) to motor frame bare metal / ground terminal.
+   - Connect Line probe (+) to U1, then V1, then W1.
+   - Apply 500V DC for 60 seconds.
+   - Minimum acceptable insulation resistance:
+     * New motors: > 100 MΩ
+     * Motors in service: >= 5 MΩ
+     * Critical danger threshold: < 1 MΩ (windings must be dried/baked or rewound).
+2. Phase to Phase:
+   - Remove terminal links (U1-V1, V1-W1, W1-U1).
+   - Test insulation resistance between separate winding phases.
+3. Discharge all residual capacitive charges by grounding winding leads before touching.

@@ -1,0 +1,90 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 1440 >>
+stream
+BT
+/F2 14 Tf
+50 755 Td
+(General Electrical Engineering Data Manual) Tj
+/F1 8 Tf
+0 -16 Td
+(Page 1 of 1 | PowerCalc Engineering Manual Suite) Tj
+0 -20 Td
+/F2 11 Tf
+0 -14 Td
+(1. Fundamental Formulas & Ohm s Law) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Direct Current: V = I * R, P = V * I = I^2 * R = V^2 / R) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Single-Phase AC: P = V * I * cos\(phi\), S = V * I, Q = V * I * sin\(phi\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Three-Phase AC:  P = sqrt\(3\) * V_L * I_L * cos\(phi\), S = sqrt\(3\) * V_L * I_L) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Power factor:    cos\(phi\) = Active Power \(kW\) / Apparent Power \(kVA\)) Tj
+0 -6 Td
+/F2 11 Tf
+0 -14 Td
+(2. Conductor Voltage Drop Calculation \(IEC & NEC\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Single-Phase: Delta_V = [2 * L * I * \(R * cos\(phi\) + X * sin\(phi\)\)] / 1000) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Three-Phase:  Delta_V = [sqrt\(3\) * L * I * \(R * cos\(phi\) + X * sin\(phi\)\)] / 1000) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Standard permissible drop: Lighting <= 3%, Power/Feeders <= 5% total.) Tj
+0 -6 Td
+/F2 11 Tf
+0 -14 Td
+(3. International Wiring Color Identification) Tj
+/F1 9 Tf
+0 -11.5 Td
+(IEC Standard: Phase 1=Brown, Phase 2=Black, Phase 3=Grey, Neutral=Blue, Earth=Green/Yellow) Tj
+/F1 9 Tf
+0 -11.5 Td
+(NEC \(120/208V\): Phase A=Black, Phase B=Red, Phase C=Blue, Neutral=White, Ground=Green/Bare) Tj
+/F1 9 Tf
+0 -11.5 Td
+(NEC \(277/480V\): Phase A=Brown, Phase B=Orange, Phase C=Yellow, Neutral=Grey, Ground=Green) Tj
+0 -6 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000328 00000 n 
+0000001819 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+1965
+%%EOF

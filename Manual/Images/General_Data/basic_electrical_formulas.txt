@@ -1,0 +1,23 @@
+BASIC ELECTRICAL ENGINEERING FORMULAS & OHM'S LAW
+===================================================
+
+1. Direct Current (DC) / Single-Phase AC at Unity Power Factor:
+   V = I * R
+   I = V / R = P / V = sqrt(P / R)
+   R = V / I = V^2 / P = P / I^2
+   P = V * I = I^2 * R = V^2 / R
+
+2. Single-Phase Alternating Current (AC):
+   Active Power (kW):   P = (V * I * cos(phi)) / 1000
+   Reactive Power (kVAR): Q = (V * I * sin(phi)) / 1000
+   Apparent Power (kVA):  S = (V * I) / 1000
+   Power Factor:          cos(phi) = P / S = kW / kVA
+   Impedance:             Z = sqrt(R^2 + X^2)   where X = X_L - X_C
+   Inductive Reactance:   X_L = 2 * pi * f * L
+   Capacitive Reactance:  X_C = 1 / (2 * pi * f * C)
+
+3. Three-Phase Alternating Current (AC):
+   Active Power (kW):     P = (sqrt(3) * V_line * I_line * cos(phi)) / 1000
+   Reactive Power (kVAR): Q = (sqrt(3) * V_line * I_line * sin(phi)) / 1000
+   Apparent Power (kVA):  S = (sqrt(3) * V_line * I_line) / 1000
+   Line Current (A):      I_line = (P * 1000) / (sqrt(3) * V_line * cos(phi))

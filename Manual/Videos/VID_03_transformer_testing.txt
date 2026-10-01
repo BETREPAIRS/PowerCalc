@@ -1,0 +1,18 @@
+VID-03: TRANSFORMER INSULATION & POLARIZATION INDEX (PI)
+==========================================================
+Standard: IEEE C57.12.90 / IEC 60076
+
+Testing Configurations:
+1. High Voltage to Low Voltage (HV - LV)
+2. High Voltage to Ground (HV - GND)
+3. Low Voltage to Ground (LV - GND)
+
+Polarization Index (PI) Calculation:
+   PI = R_10min / R_1min
+   (Ratio of insulation resistance at 10 minutes to insulation resistance at 1 minute)
+
+Interpretation:
+   PI < 1.0 : Dangerous / Failed (contamination, extreme moisture)
+   1.0 <= PI < 1.5 : Questionable
+   1.5 <= PI < 2.0 : Adequate
+   PI >= 2.0 : Good / Healthy dielectric condition

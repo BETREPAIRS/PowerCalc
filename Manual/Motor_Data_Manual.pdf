@@ -1,0 +1,132 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 2894 >>
+stream
+BT
+/F2 14 Tf
+50 755 Td
+(Motor Engineering Technical Data Manual) Tj
+/F1 8 Tf
+0 -16 Td
+(Page 1 of 1 | PowerCalc Engineering Manual Suite) Tj
+0 -20 Td
+/F2 11 Tf
+0 -14 Td
+(1. Three-Phase Induction Motor Full Load Current Ratings \(IEC 60034-1\)) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(Motor Power | 230V 3Ph | 400V 3Ph | 415V 3Ph | 480V 3Ph | 690V 3Ph | Eff % | Cos Phi) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(0.37 kW     |   1.85 A |   1.05 A |   1.01 A |   0.90 A |   0.60 A | 66.0% | 0.72) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(0.75 kW     |   3.25 A |   1.85 A |   1.78 A |   1.60 A |   1.07 A | 73.0% | 0.76) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(1.50 kW     |   6.00 A |   3.45 A |   3.30 A |   2.95 A |   2.00 A | 78.5% | 0.79) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(2.20 kW     |   8.50 A |   4.90 A |   4.70 A |   4.20 A |   2.83 A | 81.0% | 0.81) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(4.00 kW     |  14.80 A |   8.50 A |   8.15 A |   7.20 A |   4.91 A | 84.5% | 0.83) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(7.50 kW     |  26.50 A |  15.20 A |  14.60 A |  13.00 A |   8.78 A | 87.5% | 0.85) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(11.0 kW     |  38.00 A |  22.00 A |  21.00 A |  18.80 A |  12.70 A | 89.0% | 0.86) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(15.0 kW     |  51.00 A |  29.50 A |  28.20 A |  25.20 A |  17.00 A | 90.0% | 0.86) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(22.0 kW     |  73.50 A |  42.50 A |  40.50 A |  36.20 A |  24.50 A | 91.5% | 0.87) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(30.0 kW     |  99.00 A |  57.00 A |  54.80 A |  48.80 A |  32.90 A | 92.5% | 0.88) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(45.0 kW     | 146.00 A |  84.50 A |  81.00 A |  72.00 A |  48.80 A | 93.4% | 0.88) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(75.0 kW     | 239.00 A | 138.00 A | 132.00 A | 118.00 A |  79.70 A | 94.2% | 0.89) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(110  kW     | 348.00 A | 201.00 A | 192.00 A | 171.00 A | 116.00 A | 95.0% | 0.90) Tj
+0 -6 Td
+/F2 11 Tf
+0 -14 Td
+(2. Motor Terminal Block Connections \(Star & Delta Bridging\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Terminal layout: W2-U2-V2 \(top row\) and U1-V1-W1 \(bottom row\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Star \(Y\) Connection: Single horizontal link bar shorting W2-U2-V2.) Tj
+/F1 9 Tf
+0 -11.5 Td
+(  - Supply connected to U1, V1, W1. V_winding = V_line / sqrt\(3\).) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Delta \(D\) Connection: Three vertical link bars \(W2-U1, U2-V1, V2-W1\).) Tj
+/F1 9 Tf
+0 -11.5 Td
+(  - Supply connected to U1, V1, W1. V_winding = V_line.) Tj
+0 -6 Td
+/F2 11 Tf
+0 -14 Td
+(3. Power Factor Correction & Capacitor Sizing) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Q_c = \(P_shaft / efficiency\) * [tan\(acos\(PF_1\)\) - tan\(acos\(PF_2\)\)]) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Delta bank capacitance: C = \(Q_c * 10^9\) / \(3 * 2 * pi * f * V^2\) [microfarad]) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Important Relay Rule: When capacitors are placed at motor terminals,) Tj
+/F1 9 Tf
+0 -11.5 Td
+(the thermal overload relay must be reset to the reduced line current:) Tj
+/F1 9 Tf
+0 -11.5 Td
+(I_relay = I_original * \(PF_original / PF_corrected\)) Tj
+0 -6 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000328 00000 n 
+0000003273 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3419
+%%EOF

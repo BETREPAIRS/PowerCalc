@@ -1,0 +1,18 @@
+VID-04: ELECTRICAL FIELD MEASUREMENTS & SAFETY PROTOCOLS
+=========================================================
+
+1. Multimeter Safety Categories:
+   - CAT IV: Origin of installation (utility service entrance, electricity meters).
+   - CAT III: Distribution level (feeders, panelboards, motor control centers).
+   - CAT II: Single-phase receptacle-connected appliances.
+   Always ensure probes and meters are CAT III 600V or CAT IV 600V rated when working in industrial panels.
+
+2. Three-Point Earth Ground Testing (Fall of Potential - IEEE 81):
+   - Current stake C placed at 100% distance D (approx 30m - 50m).
+   - Potential stake P placed at 62% of distance D from earth pit.
+   - Measure resistance: target < 5 ohms (commercial) / < 1 ohm (substations).
+
+3. Infrared Thermography Criteria:
+   - Temperature rise Delta_T <= 10 deg C: Normal operation.
+   - 10 deg C < Delta_T <= 30 deg C: Medium defect (schedule maintenance/tightening).
+   - Delta_T > 30 deg C: Critical fault (immediate shutdown / risk of arc flash or fire).

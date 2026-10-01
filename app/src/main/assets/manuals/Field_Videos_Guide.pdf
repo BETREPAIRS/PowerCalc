@@ -1,0 +1,101 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 1749 >>
+stream
+BT
+/F2 14 Tf
+50 755 Td
+(Field Demonstration Videos Technical Manual) Tj
+/F1 8 Tf
+0 -16 Td
+(Page 1 of 1 | PowerCalc Engineering Manual Suite) Tj
+0 -20 Td
+/F2 11 Tf
+0 -14 Td
+(1. Index of 11 Practical Field Demonstration Videos) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-01: Induction Motor Star-Delta Starting Transition & Contactors) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-02: Motor Insulation Resistance \(Megger\) Testing \(500V/1000V DC\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-03: Motor Terminal Box Bridging \(Star vs Delta Configuration\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-04: Motor Power Factor Capacitor Bank Connection & Sizing) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-05: Transformer Insulation & Polarization Index \(PI >= 2.0\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-06: Transformer Turns Ratio \(TTR\) Testing & Verification) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-07: Transformer Off-Circuit Tap Changer Step Adjustment \(+/-2.5%\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-08: Digital Multimeter True-RMS Voltage & Current Measurements) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-09: Phase Rotation Sequence Meter Verification \(Clockwise A-B-C\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-10: Earth Ground Resistance 3-Point Fall-of-Potential \(62% Rule\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(VID-11: Infrared Thermography Inspection of Switchgear & Breakers) Tj
+0 -6 Td
+/F2 11 Tf
+0 -14 Td
+(2. Key Safety & Diagnostic Guidelines) Tj
+/F1 9 Tf
+0 -11.5 Td
+(1. Always verify zero voltage with an approved two-pole tester before touching.) Tj
+/F1 9 Tf
+0 -11.5 Td
+(2. Discharge capacitive residual charges on transformers and cables after Megger testing.) Tj
+/F1 9 Tf
+0 -11.5 Td
+(3. Never operate off-circuit tap changers while transformer is energized.) Tj
+/F1 9 Tf
+0 -11.5 Td
+(4. Ensure 30-50 ms dead-time between Star and Delta contactor switching.) Tj
+0 -6 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000328 00000 n 
+0000002128 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2274
+%%EOF

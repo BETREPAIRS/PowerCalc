@@ -1,0 +1,6 @@
+{
+  "name": "PowerCalc",
+  "description": "Professional Electrician Toolkit: Complete electrical calculators, wire & cable sizing, voltage drop, motor & solar engineering, protection coordination, and field tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

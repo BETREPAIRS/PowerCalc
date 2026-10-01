@@ -1,0 +1,25 @@
+VID-01: STAR-DELTA STARTING PROCEDURE & ELECTRICAL INTERLOCKS
+===============================================================
+
+Objective: Reduce starting current inrush to 1/3 (approx 33%) of Direct-on-Line value.
+
+Key Components:
+- KM1: Main Line Contactor
+- KM2: Delta Running Contactor
+- KM3: Star Starting Contactor
+- KT1: Star-to-Delta Transition Timer (Electronic On-Delay, set to 5-8 seconds)
+- F1: Thermal Overload Relay
+
+Sequence of Operation:
+1. START Pushbutton depressed: KM1 and KM3 energize simultaneously.
+   - Motor windings are connected in STAR (Y).
+   - Voltage across each phase = 230V (on 400V supply).
+   - Motor accelerates up to ~80% of synchronous RPM.
+2. Timer KT1 times out (after 5-8 seconds):
+   - Auxiliary NC contact opens -> KM3 (Star) drops out.
+   - Guaranteed pause interval (30 ms to 50 ms transition delay).
+   - Electrical interlock contact ensures KM3 is fully open before KM2 can energize.
+3. KM2 (Delta) energizes:
+   - Motor windings are connected in DELTA (Δ).
+   - Full 400V applied across each phase winding.
+   - Motor runs at full rated torque and speed.

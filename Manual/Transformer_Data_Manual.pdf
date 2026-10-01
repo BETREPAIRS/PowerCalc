@@ -1,0 +1,111 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 2137 >>
+stream
+BT
+/F2 14 Tf
+50 755 Td
+(Transformer Engineering Data Manual) Tj
+/F1 8 Tf
+0 -16 Td
+(Page 1 of 1 | PowerCalc Engineering Manual Suite) Tj
+0 -20 Td
+/F2 11 Tf
+0 -14 Td
+(1. Transformer Full Load Currents \(kVA to Amperes\)) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(Rating kVA | 400V 3Ph \(A\) | 415V 3Ph \(A\) | 11kV 3Ph \(A\) | 22kV 3Ph \(A\) | %Z Impedance) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+( 25 kVA    |     36.08 A  |     34.78 A  |      1.31 A  |      0.66 A  |    4.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+( 50 kVA    |     72.17 A  |     69.56 A  |      2.62 A  |      1.31 A  |    4.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(100 kVA    |    144.34 A  |    139.12 A  |      5.25 A  |      2.62 A  |    4.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(250 kVA    |    360.84 A  |    347.80 A  |     13.12 A  |      6.56 A  |    4.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(500 kVA    |    721.69 A  |    695.60 A  |     26.24 A  |     13.12 A  |    4.5%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(800 kVA    |   1154.70 A  |   1112.96 A  |     41.99 A  |     20.99 A  |    5.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(1000 kVA   |   1443.38 A  |   1391.20 A  |     52.49 A  |     26.24 A  |    5.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(1600 kVA   |   2309.40 A  |   2225.93 A  |     83.98 A  |     41.99 A  |    6.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(2000 kVA   |   2886.75 A  |   2782.41 A  |    104.97 A  |     52.49 A  |    6.0%) Tj
+/F3 8.5 Tf
+0 -11.5 Td
+(2500 kVA   |   3608.44 A  |   3478.01 A  |    131.22 A  |     65.61 A  |    6.5%) Tj
+0 -6 Td
+/F2 11 Tf
+0 -14 Td
+(2. Short-Circuit Currents and Impedance Calculation) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Prospective fault current: I_sc = I_rated / \(%Z / 100\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Example: 1000 kVA at 400V, %Z = 5.0% -> I_sc = 1443.4 / 0.05 = 28.87 kA.) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Secondary main circuit breaker must have breaking capacity >= 36 kA.) Tj
+0 -6 Td
+/F2 11 Tf
+0 -14 Td
+(3. Vector Groups \(Dyn11, Dyn5, Yyn0\)) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Dyn11: Delta HV, Star Neutral LV, LV leads HV by 30 deg \(standard distribution\).) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Dyn5:  Delta HV, Star Neutral LV, LV lags HV by 150 deg.) Tj
+/F1 9 Tf
+0 -11.5 Td
+(Yyn0:  Star HV, Star Neutral LV, 0 deg phase displacement.) Tj
+0 -6 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000328 00000 n 
+0000002516 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2662
+%%EOF

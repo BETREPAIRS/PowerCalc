@@ -1,0 +1,34 @@
+MOTOR CONNECTIONS: STAR (Y) AND DELTA (Δ) BRIDGING
+======================================================
+Standard: IEC 60034-8 Terminal Markings
+
+Terminal Box Layout:
+   W2     U2     V2
+   (O)    (O)    (O)
+    |      |      |
+   (O)    (O)    (O)
+   U1     V1     W1
+
+1. STAR (Wye - Y) Connection (High Voltage):
+   - Bridges: One horizontal copper link bar joining W2 - U2 - V2.
+   - Supply Lines: L1 -> U1, L2 -> V1, L3 -> W1.
+   - Neutral point is formed at W2-U2-V2.
+   - Voltage across each phase winding: V_phase = V_line / sqrt(3).
+   - Current through each phase winding: I_phase = I_line.
+
+2. DELTA (Δ) Connection (Low Voltage / Run):
+   - Bridges: Three vertical copper link bars:
+     * Bar 1: W2 to U1
+     * Bar 2: U2 to V1
+     * Bar 3: V2 to W1
+   - Supply Lines: L1 -> U1/W2, L2 -> V1/U2, L3 -> W1/V2.
+   - Voltage across each phase winding: V_phase = V_line.
+   - Current through each phase winding: I_phase = I_line / sqrt(3).
+
+3. Star-Delta Starter Wiring (6 Leads to Starter Panel):
+   - Remove ALL link bars from motor terminal box.
+   - Run 6 individual power conductors from motor terminal box to panel:
+     Cable 1: U1, V1, W1 (Connected to Main Contactor KM1)
+     Cable 2: U2, V2, W2 (Connected to Delta KM2 and Star KM3 Contactors)
+   - Starting current reduced to 33% of Direct-On-Line (DOL).
+   - Starting torque reduced to 33% of DOL.

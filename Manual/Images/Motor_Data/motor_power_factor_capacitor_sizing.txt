@@ -1,0 +1,32 @@
+MOTOR POWER FACTOR CORRECTION & CAPACITOR SIZING
+===================================================
+
+Formula:
+   Q_c = P_in * (tan(phi_1) - tan(phi_2))
+   Q_c = (P_shaft / efficiency) * (tan(acos(PF_1)) - tan(acos(PF_2)))
+
+Capacitance Required per Phase:
+   Delta Connection (400V 50Hz):
+     C_delta = (Q_c * 10^9) / (3 * 2 * pi * f * V_LL^2)   [microfarads per phase]
+   Star Connection:
+     C_star = 3 * C_delta
+
+Recommended Maximum Capacitor Rating (kVAR) for Individual Motor Correction:
+(To avoid self-excitation overvoltages during coasting to stop):
+
+Motor Rating | 2-Pole (3000 RPM) | 4-Pole (1500 RPM) | 6-Pole (1000 RPM) | 8-Pole (750 RPM)
+4.0  kW (5.5 HP)  |  1.5 kVAR  |  2.0 kVAR  |  2.5 kVAR  |  3.0 kVAR
+7.5  kW (10  HP)  |  2.5 kVAR  |  3.0 kVAR  |  4.0 kVAR  |  5.0 kVAR
+11.0 kW (15  HP)  |  3.5 kVAR  |  4.5 kVAR  |  5.5 kVAR  |  6.5 kVAR
+15.0 kW (20  HP)  |  5.0 kVAR  |  6.0 kVAR  |  7.5 kVAR  |  8.5 kVAR
+22.0 kW (30  HP)  |  7.0 kVAR  |  8.5 kVAR  | 10.0 kVAR  | 12.0 kVAR
+30.0 kW (40  HP)  |  9.0 kVAR  | 11.0 kVAR  | 13.0 kVAR  | 15.0 kVAR
+37.0 kW (50  HP)  | 11.0 kVAR  | 13.5 kVAR  | 16.0 kVAR  | 18.5 kVAR
+45.0 kW (60  HP)  | 13.0 kVAR  | 16.0 kVAR  | 19.0 kVAR  | 22.0 kVAR
+55.0 kW (75  HP)  | 15.0 kVAR  | 19.0 kVAR  | 23.0 kVAR  | 26.0 kVAR
+75.0 kW (100 HP)  | 20.0 kVAR  | 25.0 kVAR  | 30.0 kVAR  | 34.0 kVAR
+90.0 kW (125 HP)  | 24.0 kVAR  | 30.0 kVAR  | 35.0 kVAR  | 40.0 kVAR
+
+Relay Setting Adjustment:
+   When capacitor is placed on motor terminals downstream of the thermal overload relay:
+   I_relay_setting = I_motor_rated * (PF_original / PF_target)

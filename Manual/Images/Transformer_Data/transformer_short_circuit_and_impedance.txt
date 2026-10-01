@@ -1,0 +1,26 @@
+TRANSFORMER IMPEDANCE (%Z) & SHORT-CIRCUIT CURRENTS
+======================================================
+
+1. Prospective Short-Circuit Fault Current:
+   I_sc = I_rated / (%Z / 100)
+
+2. Secondary Prospective Short-Circuit at 400V 3-Phase:
+   Transformer Rating | Typical %Z | I_rated (A) | Prospective I_sc (kA) | Min Breaking Cap
+   100 kVA            |    4.0%    |   144.3 A   |       3.61 kA         |   6 kA / 10 kA
+   250 kVA            |    4.0%    |   360.8 A   |       9.02 kA         |  16 kA / 25 kA
+   500 kVA            |    4.5%    |   721.7 A   |      16.04 kA         |  25 kA / 36 kA
+   630 kVA            |    4.5%    |   909.3 A   |      20.21 kA         |  25 kA / 36 kA
+   800 kVA            |    5.0%    |  1154.7 A   |      23.09 kA         |  36 kA / 50 kA
+   1000 kVA           |    5.0%    |  1443.4 A   |      28.87 kA         |  36 kA / 50 kA
+   1250 kVA           |    5.5%    |  1804.2 A   |      32.80 kA         |  50 kA / 65 kA
+   1600 kVA           |    6.0%    |  2309.4 A   |      38.49 kA         |  50 kA / 65 kA
+   2000 kVA           |    6.0%    |  2886.8 A   |      48.11 kA         |  65 kA / 85 kA
+   2500 kVA           |    6.5%    |  3608.4 A   |      55.51 kA         |  65 kA / 85 kA
+
+3. Short Circuit Apparent Power:
+   S_sc = S_rated / (%Z / 100)   [MVA]
+
+4. Vector Groups Reference:
+   - Dyn11: Delta Primary / Star Neutral Secondary, Secondary leads Primary by 30 degrees (Standard).
+   - Dyn5: Delta Primary / Star Neutral Secondary, Secondary lags Primary by 150 degrees.
+   - Yyn0: Star Primary / Star Neutral Secondary, zero phase shift.
